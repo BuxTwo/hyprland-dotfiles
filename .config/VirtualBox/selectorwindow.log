@@ -1,0 +1,22 @@
+00:00:00.298977 VirtualBox GUI VM Selector Window 7.1.12 r169651 linux.amd64 (Jul 15 2025 20:14:26) release log
+00:00:00.298980 Log opened 2025-08-09T00:38:57.886491000Z
+00:00:00.298981 Build Type: release
+00:00:00.298985 OS Product: Linux
+00:00:00.298986 OS Release: 6.15.8-arch1-1
+00:00:00.298988 OS Version: #1 SMP PREEMPT_DYNAMIC Thu, 24 Jul 2025 18:18:11 +0000
+00:00:00.299036 DMI Product Name: KLVF-XX
+00:00:00.299050 DMI Product Version: M1010
+00:00:00.299058 Firmware type: UEFI
+00:00:00.300867 Secure Boot: Disabled
+00:00:00.300949 Host RAM: 15710MB (15.3GB) total, 14097MB (13.7GB) available
+00:00:00.300953 Executable: /usr/lib/virtualbox/VirtualBox
+00:00:00.300954 Process ID: 16736
+00:00:00.300954 Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.300995 Qt version: 6.9.1
+00:00:00.302287 GUI: UIMediumEnumerator: Initial medium-enumeration finished!
+00:00:00.306279 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:00.306303 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:05.306857 GUI: UIInvisibleWindow::sltFallback: Move event missing. Screen: 0, work area: 1079x719 x 800x800
+00:00:05.306916 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 0 work area is actually resized to: 1079x719 x 800x800
+00:00:23.595194 GUI: UICommon: Handling aboutToQuit request..
+00:00:24.795336 GUI: UICommon: aboutToQuit request handled!

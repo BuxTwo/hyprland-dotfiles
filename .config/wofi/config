@@ -1,0 +1,12 @@
+show=drun
+normal_window=true
+always_parse_args=true
+show_all=true
+print_command=true
+layer=overlay
+insensitive=true
+allow_images=true
+lines=10
+columns=1
+gtk-dark=true
+prompt=Search...

@@ -1,0 +1,98 @@
+* {
+    font-family: JetBrains Mono Nerd Font;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+#waybar {
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+}
+
+#workspaces {
+	background-color: #222436;
+    margin: 5px 0px;
+	border-radius: 5px;
+}
+
+#workspaces button {
+    background: transparent;
+    color: #ffffff;
+}
+
+#workspaces button.focused {
+    background-color: transparent;
+    box-shadow: none;
+}
+
+#workspaces button:hover {
+    background-color: transparent;
+}
+
+#custom-launcher, #language, #clock, #battery, #pulseaudio, #network, #backlight, #cpu, #memory, #temperature {
+	background-color: #222436;
+	padding: 5px 10px;
+	margin: 5px 0px;
+}
+
+#clock {
+    color: #ffffff;
+}
+
+#custom-power {
+    background-color: #222436;
+    margin: 5px 0px;
+    padding: 5px 15px 5px 10px;
+    border-radius: 0px 5px 5px 0px;
+    margin-right: 5px;
+}
+
+#battery {
+    color: #ffffff;
+}
+
+#battery.charging {
+    color: #ffffff;
+}
+
+#battery.warning:not(.charging),
+#temperature.critical {
+    color: #ff757f;
+}
+
+#network {
+	color: #ffffff;
+    border-radius: 5px 0px 0px 5px;
+}
+
+#pulseaudio {
+	color: #ffffff;
+}
+
+#custom-launcher {
+    margin-left: 5px; 
+    border-radius: 5px 0px 0px 5px;
+}
+
+#temperature {
+    color: white;
+    border-radius: 0px 5px 5px 0px;
+}
+
+#cpu {
+    color: white;
+}
+
+#memory {
+    color: white;
+}
+
+#backlight {
+    color: white;
+}
+
+#language {
+    color: white;
+}
+
