@@ -1,5 +1,6 @@
 show=drun
 normal_window=true
+location=center
 always_parse_args=true
 show_all=true
 print_command=true
@@ -9,4 +10,5 @@ allow_images=true
 lines=10
 columns=1
 gtk-dark=true
+term=kitty
 prompt=Search...

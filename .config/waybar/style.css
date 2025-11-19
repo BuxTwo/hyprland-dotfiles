@@ -1,3 +1,5 @@
+@import "mocha.css";
+
 * {
     font-family: JetBrains Mono Nerd Font;
     font-weight: bold;
@@ -6,93 +8,69 @@
 
 #waybar {
     background-color: transparent;
-    border: none;
-    box-shadow: none;
+    color: @text;
 }
 
 #workspaces {
-	background-color: #222436;
-    margin: 5px 0px;
-	border-radius: 5px;
+	background-color: @base;
+    margin-top: 4px;
+	border-radius: 4px;
 }
 
 #workspaces button {
-    background: transparent;
-    color: #ffffff;
+    color: @lavender;
 }
 
-#workspaces button.focused {
-    background-color: transparent;
-    box-shadow: none;
+#workspaces button.active {
+    color: @sky;
 }
 
 #workspaces button:hover {
-    background-color: transparent;
+    box-shadow: none;
+    text-shadow: none;
+    background: none;
+    border-color: transparent;
+    color: @sky;
 }
 
-#custom-launcher, #language, #clock, #battery, #pulseaudio, #network, #backlight, #cpu, #memory, #temperature {
-	background-color: #222436;
+#custom-launcher,
+#custom-power,
+#clock,
+#language,
+#battery,
+#backlight,
+#pulseaudio,
+#network,
+#tray,
+#temperature,
+#memory,
+#cpu {
+	background-color: @base;
 	padding: 5px 10px;
-	margin: 5px 0px;
-}
-
-#clock {
-    color: #ffffff;
-}
-
-#custom-power {
-    background-color: #222436;
-    margin: 5px 0px;
-    padding: 5px 15px 5px 10px;
-    border-radius: 0px 5px 5px 0px;
-    margin-right: 5px;
-}
-
-#battery {
-    color: #ffffff;
-}
-
-#battery.charging {
-    color: #ffffff;
-}
-
-#battery.warning:not(.charging),
-#temperature.critical {
-    color: #ff757f;
-}
-
-#network {
-	color: #ffffff;
-    border-radius: 5px 0px 0px 5px;
-}
-
-#pulseaudio {
-	color: #ffffff;
+	margin-top: 4px;
 }
 
 #custom-launcher {
-    margin-left: 5px; 
-    border-radius: 5px 0px 0px 5px;
+    margin-left: 4px;
+    border-radius: 4px 0px 0px 4px;
+}
+
+#custom-power {
+    padding-right: 15px;
+    border-radius: 0px 4px 4px 0px;
+    margin-right: 4px;
 }
 
 #temperature {
-    color: white;
-    border-radius: 0px 5px 5px 0px;
+    border-radius: 0px 4px 4px 0px;
 }
 
-#cpu {
-    color: white;
+#network,
+#tray {
+    border-radius: 4px 0px 0px 4px;
 }
 
-#memory {
-    color: white;
+#battery.critical,
+#temperature.critical {
+    color: @red;
 }
-
-#backlight {
-    color: white;
-}
-
-#language {
-    color: white;
-}
-

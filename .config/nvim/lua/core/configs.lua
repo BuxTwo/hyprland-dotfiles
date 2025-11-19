@@ -1,11 +1,12 @@
 vim.wo.number = true
 vim.wo.relativenumber = true
 
-vim.opt.showmode = true
+vim.opt.showmode = false
 vim.wo.signcolumn = "yes"
 vim.opt.scrolloff = 8
 vim.opt.wrap = false
 vim.wo.linebreak = true
+vim.opt.cursorline = true
 vim.opt.virtualedit = "block"
 vim.opt.undofile = false
 vim.opt.shell = "/bin/bash"
